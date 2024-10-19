@@ -33,6 +33,6 @@ de componentes onde RegisterRecipes é o nó raiz e os demais são nós filhos.
 5. envie um pull request com uma descrição clara de suas alterações.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+Este projeto está licenciado sob a Licença MIT
 
 Reutilizamos um projeto e fizemos algumas atualizações.
