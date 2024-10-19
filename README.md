@@ -6,7 +6,7 @@ Nosso padrão de projeto utilizado foi Composite Pattern onde podemos observar n
 que contém outros componentes como Menu, Confirm, Sucess e múltiplas instâncias de IngredientInput. Essa composição cria uma árvore 
 de componentes onde RegisterRecipes é o nó raiz e os demais são nós filhos.
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - React.js
 - Axios: ^1.6.7
@@ -15,7 +15,7 @@ de componentes onde RegisterRecipes é o nó raiz e os demais são nós filhos.
 - Sass: ^1.70.0
 - SweetAlert2: ^11.10.4
 
-##Características
+## Características
 
 - Registro e autenticação do usuário
 - Criação de receita com título, descrição, ingredientes, quantidade de cafeína e método de preparo
@@ -24,7 +24,7 @@ de componentes onde RegisterRecipes é o nó raiz e os demais são nós filhos.
 - Visualizar um feed com todas as receitas dos usuários
 - Design responsivo para diferentes dispositivos
 
-##Uso
+## Uso
 
 1. Bifurcar o repositório
 2. Crie um novo branch para seu recurso ou correção de bug: git checkout -b feature-name
@@ -32,7 +32,7 @@ de componentes onde RegisterRecipes é o nó raiz e os demais são nós filhos.
 4. envie para a branch git push origin feature-name
 5. envie um pull request com uma descrição clara de suas alterações.
 
-##Licença
+## Licença
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
 Reutilizamos um projeto e fizemos algumas atualizações.
