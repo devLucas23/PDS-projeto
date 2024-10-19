@@ -39,6 +39,14 @@ de componentes onde `RegisterRecipes` é o nó raiz e os demais são nós filhos
 3. Ativar o ambiente virtual
 4. Executar o projeto com comando: `python manage.py runserver`
 
+## Passo pra iniciar o Frontend
+Obs: Se as dependências ainda não tenham sido instaladas, execute:
+* npm install
+Isso instalará todas as dependências listadas no arquivo package.json.
+
+Para iniciar o servidor, use o comando:
+* npm start
+
 OBS: Caso não funcione, instale o Django. Após a instalação, execute novamente o comando: `python manage.py runserver`
 
 ## Licença
