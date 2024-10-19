@@ -1,0 +1,181 @@
+#login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+#presentation {
+    background-color: #fff;
+}
+
+#presentation h1 {
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Potta One', sans-serif;
+    color: #261420;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.soon {
+    margin: 20px auto;
+    position: relative;
+    max-width: 90%;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+.soon img {
+    position: absolute;
+    max-width: 80%;
+}
+
+.soon p {
+    position: absolute;
+    color: #261420;
+    left: 60%;
+    text-align: end;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+#form {
+    background-color: #E4B18E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#form>form {
+    background-color: #fff;
+    min-height: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form h2{
+    font-family: 'Patua One', sans-serif; 
+
+}
+form label {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Rowdies, sans-serif;
+}
+
+
+.information {
+    border-radius: 6px 6px 0px 0px;
+    background: #F2E8DF;
+    margin-top: 7px;
+    border: none;
+    border-bottom: 2px solid #AB6E50;
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.15);
+    height: 30px;
+    text-indent: 5px;
+    outline: none;
+}
+
+.submit {
+    width: 90%;
+    color: #fff;
+    border-radius: 10px;
+    background: #AB6E50;
+    height: 40px;
+    border: none;
+    font-family: Rowdies, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.submit:hover{
+    cursor: pointer;
+    background: #bb886e;
+}
+
+.description {
+    color: #000;
+    text-align: right;
+    font-family: Rowdies, sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#register{
+    color: #8C5042;
+    margin-left: 5px;
+    text-decoration: none;
+}
+#register:hover{
+    cursor: pointer;
+    color: #8c5042c7;
+}
+
+@media(max-width: 1290px) {
+    #presentation h1 {
+        font-size: 4rem;
+    }
+
+    .soon p {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 1050px) {
+    #presentation h1 {
+        font-size: 3rem;
+    }
+
+    .soon {
+        margin: 50px auto;
+    }
+
+    .soon p {
+        font-size: 2rem;
+    }
+}
+
+@media(min-width: 700px) and (max-width: 850px) {
+    .description{
+        font-size: 1em;
+    }
+}
+@media(max-width: 800px) {
+    #presentation h1 {
+        font-size: 2.5rem;
+    }
+
+    .soon {
+        margin: 100px auto;
+    }
+
+    .soon p {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 700px) {
+    #presentation {
+        display: none;
+    }
+
+    #login {
+        display: flex;
+        width: 100vw;
+    }
+
+    #form {
+        width: 100%;
+    }
+}

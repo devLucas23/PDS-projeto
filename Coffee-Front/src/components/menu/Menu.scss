@@ -1,0 +1,216 @@
+$color1: #592C28;
+$color2: #E4B18E;
+$color3: #261420;
+$color4: #8C5042;
+
+.sidebar {
+    background-color: $color4;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    .title {
+        font-family: 'Rowdies', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+        height: 20%;
+
+    }
+
+    .menuBotton {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .menuLeft {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+        box-sizing: border-box;
+
+        .menu {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            gap: 15px;
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            
+            box-sizing: border-box;
+            
+            .LinkRouterMenu {
+                font-size: 1.2rem;
+                .icon{
+                    margin-right: 3px;
+                }
+                width: 80%;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                text-align: center;
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .LinkRouterMenu:hover {
+                background-color: $color2;
+
+                box-sizing: border-box;
+                border-radius: 10px;
+                margin-bottom: 0;
+                cursor: pointer;
+            }
+
+            .new-recipe {
+                .icon{
+                    margin-right: 3.5px;
+                    margin-top: 1px;
+                }
+                text-align: center;
+                width: 100%;
+                padding: 10px 20px;
+                border: none;
+                background-color: #261420;
+                border-radius: 15px;
+                color: #fff;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-family: 'Rowdies', sans-serif;
+                cursor: pointer;
+            }
+
+            .new-recipe:hover {
+                background-color: #261420d2;
+            }
+        }
+        .logout{
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            .LinkLogout{
+                text-align: center;
+                font-size: 2.2rem;
+                text-decoration: none;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+        }
+    }
+}
+
+
+@media (min-width: 750px) and (max-width: 1280px) {
+    .sidebar {
+        width: 25%;
+        .title {
+            font-size: 1.8rem;
+        }
+        .menuLeft{
+            .menu{
+                .new-recipe{
+                    font-size: 1.1rem;
+                }
+
+            }
+        }
+    }
+}
+@media screen and (max-width: 935px){
+    .sidebar{
+        .title{
+            font-size: 1.6rem;
+        }
+        .menuLeft{
+            .menu{
+                .LinkRouterMenu{
+                    font-size: .9rem;
+                }
+                .new-recipe{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .sidebar {
+        top: 90%;
+        width: 100%;
+        max-height: 100px;
+        flex-direction: row;
+        justify-content: space-around;
+        box-sizing: border-box;
+        .title{
+            font-size: 1.2rem;
+            max-width: 15%;
+           text-wrap: wrap;
+        }
+        .menuLeft {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .menuBotton {
+            display: flex;
+            width: 80%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+
+            .menu {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                box-sizing: border-box;
+
+                li {
+                    .LinkRouterMenu {
+                        text-align: center;
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.4rem;
+                    cursor: pointer;
+
+                }
+
+                li:hover {
+                    background-color: $color2;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    margin-bottom: 0;
+                }
+            }
+
+        }
+
+    }
+}
